@@ -9,6 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
         <script src="https://kit.fontawesome.com/9860df61a3.js" crossorigin="anonymous"></script>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <!-- CSS only -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
             integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
@@ -56,36 +57,236 @@
                 </div>
             </header>
 
-        </main>
 
-        <article>
-            <section id="landing">
-                <div class="container">
-                    <div class="row mx-0">
-                        <div class="col-lg-6 col-md-6 col-sm-12 py-5 pl-0 pr-5">
-                            <h1 class="freehand">Freehand your brand with a beautiful website</h1>
-                            <p class="lorem1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae sit, corrupti quasi odio autem tempora. Quae sit, corrupti quasi odio autem.</p>
-                            <button class="btn btn-primary project">View Projects</button>
-                            <button class="btn btn-outline-primary learn">Learn more</button>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12 pt-5 pb-0 pl-5 pr-0">
-                            <div class="img">
-                            <img src="Assets_Files/arrow.svg" class="arrow1" alt="Prev/Nextarrow">
-                            <img src="Assets_Files/arrow.svg" class="arrow2" alt="Prev/Nextarrow"></div>
+
+            <article>
+                <section id="landing">
+                    <div class="container">
+                        <div class="row mx-0">
+                            <div class="col-lg-6 col-md-6 col-sm-12 landing-textz">
+                                <h1 class="freehand">Freehand your brand with a beautiful website</h1>
+                                <p class="lorem1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae sit,
+                                    corrupti quasi odio autem tempora. Quae sit, corrupti quasi odio autem.</p>
+                                <button class="btn btn-primary project">View Projects</button>
+                                <button class="btn btn-outline-primary learn">Learn more</button>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 landing-img">
+                                <div class="img">
+                                    <img src="Assets_Files/arrow.svg" class="arrow1" alt="Prev/Nextarrow">
+                                    <img src="Assets_Files/arrow.svg" class="arrow2" alt="Prev/Nextarrow"></div>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </section>
+                </section>
 
-            <section id="our_services">
-                <div class="container">
-                    <p class="services">our services</p>
-                    <h1 class="build">We build experience</h1>
-                    <p class="lorem2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus voluptate excepturi quo distinctio asperiore.</p>
-                </div>
-            </section>
+                <section id="our_services">
+                    <div class="container">
+                        <p class="services">our services</p>
+                        <h1 class="build">We build experience</h1>
+                        <p class="lorem2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus voluptate
+                            excepturi quo distinctio asperiore.</p>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <div class="card exp-design" data-aos="flip-left" data-aos-duration="1700">
+                                    <div class="card-header">
+                                        <div class="speaker"></div>
+                                        <div class="card-body">
+                                            <h3 class="card-title head-textz">Design</h3>
+                                            <p class="lorem3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                Enim
+                                                saepe animi aperiam temporibus. Quaerat, laboriosam!</p>
+                                            <p><a href="#" class="learn2">Learn more</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
-        </article>
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <div class="card exp-design" data-aos="flip-left" data-aos-duration="2400">
+                                    <div class="card-header">
+                                        <div class="home"></div>
+                                        <div class="card-body">
+                                            <h3 class="card-title head-textz">Ecommerce</h3>
+                                            <p class="lorem3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                Enim
+                                                saepe animi aperiam temporibus. Quaerat, laboriosam!</p>
+                                            <p><a href="#" class="learn2">Learn more</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <div class="card exp-design" data-aos="flip-left" data-aos-duration="3000">
+                                    <div class="card-header">
+                                        <div class="shopping"></div>
+                                        <div class="card-body">
+                                            <h3 class="card-title head-textz">Application</h3>
+                                            <p class="lorem3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                Enim
+                                                saepe animi aperiam temporibus. Quaerat, laboriosam!</p>
+                                            <p><a href="#" class="learn2">Learn more</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="features">
+                    <div class="container">
+                        <p class="tips">our tips for you</p>
+                        <h1 class="important">Important features</h1>
+                        <p class="lorem2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus voluptate
+                            excepturi quo distinctio asperiore.</p>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <div class="img_section1" data-aos="fade-right"
+                                data-aos-offset="300"
+                                data-aos-easing="ease-in-sine" data-aos-duration="2000"></div>
+                                <p class="img--textz">120 million curious readers and growing.</p>
+                            </div>
+
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <div class="img_section2" data-aos="fade-left"
+                                data-aos-offset="300"
+                                data-aos-easing="ease-in-sine" data-aos-duration="2000"></div>
+                                <p class="img--textz">Expand your reading.
+                                    Expand your mind.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="plan">
+                    <div class="container">
+                        <h1 class="choice">Choose the plan that’s right for your business</h1>
+                        <p class="lorem2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus voluptate
+                            excepturi quo distinctio asperiore.</p>
+
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <div class="card pricing-design one" data-aos="flip-left"
+                                data-aos-easing="ease-out-cubic"
+                                data-aos-duration="1700">
+                                    <div class="card-header">
+                                        <p class="plan-textz">Started Plan</p>
+                                        <div class="card-body">
+                                            <h3 class="card-title priceHead-textz free">Free</h3>
+                                            <p class="duration">per month</p>
+                                            <p class="lorem4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                                Maxime, possimus?</p>
+                                            <p class="start"><a href="#">Get Started</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <div class="card pricing-design two" data-aos="flip-left"
+                                data-aos-easing="ease-out-cubic"
+                                data-aos-duration="2400">
+                                    <div class="card-header">
+                                        <p class="plan-textz">Enterprise Plan</p>
+                                        <div class="card-body">
+                                            <h3 class="card-title priceHead-textz enterprize">$20.00</h3>
+                                            <p class="duration">per month</p>
+                                            <p class="lorem4">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                                Omnis, necessitatibus.</p>
+                                            <p class="start"><a href="#">Get Started</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                <div class="card pricing-design three" data-aos="flip-left"
+                                data-aos-easing="ease-out-cubic"
+                                data-aos-duration="3000">
+                                    <div class="card-header">
+                                        <p class="plan-textz">Enterprise Plan</p>
+                                        <div class="card-body">
+                                            <h3 class="card-title priceHead-textz premium">$50.00</h3>
+                                            <p class="duration">per month</p>
+                                            <p class="lorem4">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                Cumque, ipsam!</p>
+                                            <p class="start"><a href="#">Get Started</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="get_started">
+                    <div class="container">
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                            <div class="img--getStarted">
+                                <div class="get--startedTextz">
+                                    <h1 class="startTextz">Get started today and try 30 days free</h1>
+                                    <p class="no--contact">No contact, no set-up costs, just awesome way to organise
+                                        your money.</p>
+                                    <div class="trywatch">
+                                    <p class="try btn"><a href="#">Try it for free</a></p>
+                                    <p class="watch btn"><a href="#">Watch Demo</a></p>
+                                </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+            </article>
+
+        </main>
+
+        <footer class="container-fluid">
+            <div class="footer--content">
+                <div class="firstbox">
+                    <div class="footer-logo"></div>
+                    <p class="footer-logoTextz">We're brand strategy and digital design agency, building brands that
+                        matter in culture.</p>
+                    <div class="social-icons">
+                        <div class="instagram"></div>
+                        <div class="facebook"></div>
+                        <div class="github"></div>
+                        <div class="dribbble"></div>
+                        <div class="twitter"></div>
+                    </div>
+                </div>
+                <div class="secondbox">
+                    <h3 class="service"><a href="#">Services</a></h3>
+                    <p class="serviceTextz"><a href="#">Blog</a></p>
+                    <p class="serviceTextz"><a href="#">Partner with freehand</a></p>
+                    <p class="serviceTextz"><a href="#">Apps & Plugins</a></p>
+                    <p class="serviceTextz"><a href="#">FAQ</a></p>
+                    <p class="serviceTextz"><a href="#">UI Kit</a></p>
+                </div>
+                <div class="thirdbox">
+                    <h3 class="company"><a href="#">Company</a></h3>
+                    <p class="companyTextz"><a href="#">About</a></p>
+                    <p class="companyTextz"><a href="#">Terms</a></p>
+                    <p class="companyTextz"><a href="#">Privacy Policy</a></p>
+                    <p class="companyTextz"><a href="#">Careers</a></p>
+                </div>
+                <div class="fourthbox">
+                    <h3 class="contactus"><a href="#">Contact us</a></h3>
+                    <p class="contactTextz">We’re Always Happy to Help</p>
+                    <p class="contactText">mail@freehand.io</p>
+                    <div class="sponsor">
+                        <div class="logo1"></div>
+                        <div class="logo2"></div>
+                    </div>
+                </div>
+            </div>
+
+            <p class="copywrite">Copyright © 2020. Crafted with love by dharmyx.</p>
+        </footer>
+
+
 
         <!--<script src="" async defer></script>-->
         <!-- JavaScript and dependencies -->
@@ -95,6 +296,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
             integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous">
         </script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
             AOS.init();
